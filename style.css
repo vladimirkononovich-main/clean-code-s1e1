@@ -18,7 +18,9 @@ body {
 }
 
 @media (max-width:768px) {
-.link-wrapper { text-align: center;
+
+    .link-wrapper { 
+    text-align: center;
 }
 }
 .centered-main-page-element {
