@@ -13,7 +13,7 @@ body {
 .more-details-wrapper img {
     width: 100%;
 }
-.more-details-wrapper.more__inf {
+.more-details-wrapper .more__inf {
     font-family: fantasy, cursive;
 }
 
@@ -38,12 +38,12 @@ body {
     display: flex;
 }
 ul {
-    margin:0;
+    margin: 0;
     padding: 0px;
 }
 li, 
 h3 {
-    list-style:none;
+    list-style: none;
 }
 input,
 button {
@@ -58,7 +58,7 @@ button {
     font-family: Lato, sans-serif;
     cursor: pointer;
 }
-button:hover {
+.all-button:hover {
     color: #3a3A3a;
 }
 /* Heading */
@@ -107,7 +107,7 @@ li {
     justify-content: space-between;
     align-items: center;
 }
-li > * {
+.li-all > * {
     vertical-align: middle;
 }
 
@@ -123,12 +123,12 @@ li > label {
 li > input[type="text"] {
     width: 226px;
 }
-button.delete img {
+.delete img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+.delete img:hover {
     transform: rotateZ(0);
 }
 
